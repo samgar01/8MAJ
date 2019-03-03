@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<head>
+	<meta charset='UTF-8'>
+	<title>AJ - 8M</title>
+	<link rel="icon" href="http://actualidadjoven.es/wp-content/uploads/2018/09/cropped-ACTUALIDADJOVEN-LOGO-NOCIRCULO-NEGRO-e1537811312969.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+	<style type="text/css">
+	html {
+		height: 100%;
+	}
+	body {
+		background-image: url("fondo.jpg");
+  		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+		background-position: center;
+	}
+
+		/* body:before will also work
+	 as will body:after */
+	:root:before {
+	  content: url("fondo.jpg")
+	  /* partial fallback */
+	  background-image: url("fondo.jpg");
+	  visibility: hidden;
+	  position: absolute;
+	  left: -999em;
+	}
+
+	#izq {
+		text-align: center;
+		font-size: 38px;
+		height: 300px;
+		position: fixed;
+    	bottom: 0px;
+    	left: 0px;
+    	background-color: rgba(197, 66, 244, 0.7);
+    	border-right-color: white;
+    	border-right-style: solid;
+    	border-right-width: 1px;
+    	display: flex;
+  		align-items: center;
+  		justify-content: center;
+  		padding-top: 20px;
+  		transition: 0.7s;
+	}
+	#izq:hover {
+		font-size: 40px;
+		background-color: rgba(197, 66, 244, 0.9);
+		cursor: pointer;
+	}
+
+	#der {
+		text-align: center;
+		font-size: 38px;
+		align-content: center;
+		height: 300px;
+    	background-color: rgba(220, 60, 244, 0.7);
+    	border-left-color: white;
+    	border-left-style: solid;
+    	border-left-width: 1px;
+		position: fixed;
+    	bottom: 0px;
+    	right: 0px;
+    	display: flex;
+  		align-items: center;
+  		justify-content: center;
+  		padding-top: 20px;
+  		transition: 0.7s;
+	}
+	#der:hover {
+		font-size: 40px;
+		background-color: rgba(220, 60, 244, 0.9);
+		cursor: pointer;
+	}
+
+	#titulo {
+		text-align: center;
+		height: 100%;
+		position: relative;
+	}
+	#titulo p {
+		position: relative;
+		padding-top: 10em;
+  		font-size: 4.5em;
+  		color: white;
+  		text-shadow: 1px 1px black;
+	}
+
+	@media only screen and (orientation: landscape) and (max-width: 600px){
+		#der,
+		#izq {
+			height: 100px;
+			font-size: 22px;
+		}
+		#der:hover {
+			font-size: 24px;
+			background-color: rgba(220, 60, 244, 0.9);
+			cursor: pointer;
+		}
+		#izq:hover {
+			font-size: 24px;
+			background-color: rgba(197, 66, 244, 0.9);
+			cursor: pointer;
+		}
+		#titulo {
+			text-align: center;
+			height: 100px;
+			position: relative;
+		}
+		#titulo p {
+			position: relative;
+			padding-top: 1em;
+	  		font-size: 3.5em;
+	  		color: white;
+	  		text-shadow: 1px 1px black;
+		}
+	}
+
+	@media only screen and (orientation: landscape) and (max-width: 768px){
+		#der,
+		#izq {
+			height: 100px;
+			font-size: 22px;
+		}
+		#der:hover {
+			font-size: 24px;
+			background-color: rgba(220, 60, 244, 0.9);
+			cursor: pointer;
+		}
+		#izq:hover {
+			font-size: 24px;
+			background-color: rgba(197, 66, 244, 0.9);
+			cursor: pointer;
+		}
+
+		#titulo {
+			text-align: center;
+			height: 100px;
+			position: relative;
+		}
+		#titulo p {
+			position: relative;
+			padding-top: 1em;
+	  		font-size: 3.5em;
+	  		color: white;
+	  		text-shadow: 1px 1px black;
+		}
+	}
+
+	@media only screen and (orientation: landscape) and (max-width: 992px){
+		#der,
+		#izq {
+			height: 100px;
+			font-size: 22px;
+		}
+		#der:hover {
+			font-size: 24px;
+			background-color: rgba(220, 60, 244, 0.9);
+			cursor: pointer;
+		}
+		#izq:hover {
+			font-size: 24px;
+			background-color: rgba(197, 66, 244, 0.9);
+			cursor: pointer;
+		}
+
+		#titulo {
+			text-align: center;
+			height: 100px;
+			position: relative;
+		}
+		#titulo p {
+			position: relative;
+			padding-top: 1em;
+	  		font-size: 3.5em;
+	  		color: white;
+	  		text-shadow: 1px 1px black;
+		}
+	}
+
+	/* Small devices (portrait tablets and large phones, 600px and up) */
+	@media only screen and (orientation: portrait) and (min-width: 600px) {
+		#izq {
+		text-align: center;
+		font-size: 38px;
+		height: 300px;
+		position: fixed;
+    	bottom: 0px;
+    	left: 0px;
+    	background-color: rgba(197, 66, 244, 0.7);
+    	border-right-color: white;
+    	border-right-style: solid;
+    	border-right-width: 1px;
+    	display: flex;
+  		align-items: center;
+  		justify-content: center;
+  		padding-top: 20px;
+  		transition: 0.7s;
+	}
+	#izq:hover {
+		font-size: 40px;
+		background-color: rgba(197, 66, 244, 0.9);
+		cursor: pointer;
+	}
+
+	#der {
+		text-align: center;
+		font-size: 38px;
+		align-content: center;
+		height: 300px;
+    	background-color: rgba(220, 60, 244, 0.7);
+    	border-left-color: white;
+    	border-left-style: solid;
+    	border-left-width: 1px;
+		position: fixed;
+    	bottom: 0px;
+    	right: 0px;
+    	display: flex;
+  		align-items: center;
+  		justify-content: center;
+  		padding-top: 20px;
+  		transition: 0.7s;
+	}
+	#der:hover {
+		font-size: 40px;
+		background-color: rgba(220, 60, 244, 0.9);
+		cursor: pointer;
+	}
+
+	#titulo {
+		text-align: center;
+		height: 100%;
+		position: relative;
+	}
+	#titulo p {
+		position: relative;
+		padding-top: 10em;
+  		font-size: 4.5em;
+  		color: white;
+  		text-shadow: 1px 1px black;
+	}
+	}
+
+	/* Medium devices (landscape tablets, 768px and up) */
+	@media only screen and (orientation: portrait) and (min-width: 768px) {}
+
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen  and (orientation: portrait) and (min-width: 992px) {
+
+	}
+
+	/* Extra large devices (large laptops and desktops, 1200px and up) */
+	@media only screen and (min-width: 1200px) {
+		#izq {
+			text-align: center;
+			font-size: 18px;
+			height: 90px;
+			position: fixed;
+	    	bottom: 0px;
+	    	left: 0px;
+	    	background-color: rgba(255, 255, 255, 0.5);
+	    	display: flex;
+	  		align-items: center;
+	  		justify-content: center;
+	  		padding-top: 20px;
+	  		transition: 0.7s;
+		}
+		#izq:hover {
+			font-size: 19px;
+			background-color: rgba(255, 255, 255, 0.8);
+			cursor: pointer;
+		}
+
+		#der {
+			text-align: center;
+			font-size: 18px;
+			align-content: center;
+			height: 90px;
+	    	background-color: rgba(225, 225, 225, 0.5);
+			position: fixed;
+	    	bottom: 0px;
+	    	right: 0px;
+	    	display: flex;
+	  		align-items: center;
+	  		justify-content: center;
+	  		padding-top: 20px;
+	  		transition: 0.7s;
+		}
+		#der:hover {
+			font-size: 19px;
+			background-color: rgba(225, 225, 225, 0.8);
+			cursor: pointer;
+		}
+
+		#titulo {
+			text-align: center;
+			height: 100%;
+			position: relative;
+		}
+		#titulo p {
+			position: relative;
+			margin-top: 4em;
+	  		font-size: 3.5em;
+	  		color: white;
+	  		text-shadow: 1px 1px black;
+		}
+
+	}
+
+
+
+	</style>
+</head>
+<body>
+	<div id="titulo">
+		<p  data-aos="fade-down">Feminismo y Cultura en el siglo XXI</p>
+	</div>
+
+	<footer class="row" id="footerRow">
+		<div id="izq" class="col-lg-6 col-md-6 col-xs-6 col-sm-6" data-aos-easing="ease-in-sine" data-aos-delay="300" data-aos="fade-down" data-aos-anchor="#footerRow">
+			<p>HISTORIA Y DEFINICIÓN DEL FEMINISMO</p>
+		</div>
+		<div id="der" class="col-lg-6 col-md-6 col-xs-6 col-sm-6" data-aos-easing="ease-in-sine" data-aos-delay="300" data-aos="fade-down" data-aos-anchor="#footerRow">
+			<p>REFERENTE</p>
+		</div>
+	</footer>
+
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script>
+		AOS.init();
+	</script>
+
+</body>
+</html>
