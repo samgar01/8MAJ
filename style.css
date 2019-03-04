@@ -1,70 +1,51 @@
-	html {
-		height: 100%;
-	}
-	body {
-		background-image: url("fondo.jpg");
-  		background-repeat: no-repeat;
-  		background-attachment: fixed;
-  		background-size: cover;
-		background-position: center;
-	}
-
-		/* body:before will also work
-	 as will body:after */
-	:root:before {
-	  content: url("fondo.jpg")
-	  /* partial fallback */
-	  background-image: url("fondo.jpg");
-	  visibility: hidden;
-	  position: absolute;
-	  left: -999em;
-	}
 	#izq {
 		text-align: center;
 		font-size: 38px;
-		font-weight: bold;
 		height: 300px;
 		position: fixed;
-    	bottom: 0px;
+    	bottom: 5px;
     	left: 0px;
-    	background-color: rgba(197, 66, 244, 0.7);
-    	border-right-color: white;
-    	border-right-style: solid;
-    	border-right-width: 1px;
+    	background-color: rgba(172, 130, 178, 0.9);
     	display: flex;
   		align-items: center;
   		justify-content: center;
-  		padding-top: 20px;
+  		padding-top: 10px;
+  		padding-right: 10px;
   		transition: 0.7s;
+  		margin-left: 5px;
+  		margin-right: 5px;
+  		border-radius: 10px;
+  		color: white;
 	}
 	#izq:hover {
 		font-size: 40px;
-		background-color: rgba(197, 66, 244, 0.9);
+		background-color: rgba(172, 130, 178, 0.7);
 		cursor: pointer;
 	}
 
 	#der {
 		text-align: center;
 		font-size: 38px;
-		font-weight: bold;
 		align-content: center;
 		height: 300px;
-    	background-color: rgba(220, 60, 244, 0.7);
-    	border-left-color: white;
-    	border-left-style: solid;
-    	border-left-width: 1px;
+    	background-color: rgba(172, 130, 178, 0.9);
 		position: fixed;
-    	bottom: 0px;
+    	bottom: 5px;
     	right: 0px;
     	display: flex;
   		align-items: center;
   		justify-content: center;
-  		padding-top: 20px;
+  		padding-top: 10px;
+  		padding-left: 10px;
   		transition: 0.7s;
+  		margin-left: 5px;
+  		margin-right: 5px;
+		border-radius: 10px;
+		color: white;
 	}
 	#der:hover {
 		font-size: 40px;
-		background-color: rgba(220, 60, 244, 0.9);
+		background-color: rgba(172, 130, 178, 0.7);
 		cursor: pointer;
 	}
 
@@ -75,7 +56,7 @@
 	}
 	#titulo p {
 		position: relative;
-		padding-top: 10em;
+		background-color: rgba(0, 0, 0, 0.38);
   		font-size: 4.5em;
   		color: white;
   		text-shadow: 1px 1px black;
@@ -88,6 +69,72 @@
 	@media (min-width:961px)  { }
 	@media (min-width:1025px) { }
 	@media (min-width:1281px) { }*/
+
+	/*
+	  ##Device = Most of the Smartphones Mobiles (Portrait)
+	  ##Screen = B/w 320px to 479px
+	*/
+	@media (min-width: 320px) and (max-width: 480px) {
+
+		#izq {
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold;
+			max-width: 48%;
+			height: 300px;
+			position: fixed;
+	    	bottom: 5px;
+	    	left: 0px;
+	    	border-right-color: white;
+	    	border-right-style: solid;
+	    	border-right-width: 1px;
+	    	display: flex;
+	  		align-items: center;
+	  		justify-content: center;
+	  		padding-top: 20px;
+	  		transition: 0.7s;
+		}
+		#izq:hover {
+			font-size: 32px;
+			cursor: pointer;
+		}
+
+		#der {
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold;
+			align-content: center;
+			height: 300px;
+			width: 50%;
+	    	border-left-color: white;
+	    	border-left-style: solid;
+	    	border-left-width: 1px;
+			position: fixed;
+	    	bottom: 0px;
+	    	right: 0px;
+	    	display: flex;
+	  		align-items: center;
+	  		justify-content: center;
+	  		padding-top: 20px;
+	  		transition: 0.7s;
+		}
+		#der:hover {
+			font-size: 32px;
+			cursor: pointer;
+		}
+
+		#titulo {
+			text-align: center;
+			height: 100px;
+			position: relative;
+		}
+		#titulo p {
+			position: relative;
+	  		font-size: 4.5em;
+	  		color: white;
+	  		text-shadow: 1px 1px black;
+		}
+	}
 
 	/*
 	  ##Device = Desktops
@@ -103,7 +150,6 @@
 			position: fixed;
 	    	bottom: 0px;
 	    	left: 0px;
-	    	background-color: rgba(197, 66, 244, 0.7);
 	    	border-right-color: white;
 	    	border-right-style: solid;
 	    	border-right-width: 1px;
@@ -115,7 +161,6 @@
 		}
 		#izq:hover {
 			font-size: 24px;
-			background-color: rgba(197, 66, 244, 0.9);
 			cursor: pointer;
 		}
 
@@ -124,7 +169,6 @@
 			font-size: 22px;
 			align-content: center;
 			height: 125px;
-	    	background-color: rgba(220, 60, 244, 0.7);
 	    	border-left-color: white;
 	    	border-left-style: solid;
 	    	border-left-width: 1px;
@@ -139,7 +183,6 @@
 		}
 		#der:hover {
 			font-size: 24px;
-			background-color: rgba(220, 60, 244, 0.9);
 			cursor: pointer;
 		}
 
@@ -150,10 +193,112 @@
 		}
 		#titulo p {
 			position: relative;
-			padding-top: 2em;
 	  		font-size: 3.5em;
 	  		color: white;
 	  		text-shadow: 1px 1px black;
+		}
+
+		/*-----------diapo2--------------*/
+		body#bodyDiapo2 {
+			background-image: url("diapo2.jpg");
+	  		background-repeat: no-repeat;
+	  		background-attachment: fixed;
+	  		background-size: cover;
+			background-position: top;
+		}
+
+			/* body:before will also work
+		 as will body:after */
+		body#bodyDiapo2:before {
+		  content: url("diapo2.jpg")
+		  /* partial fallback */
+		  background-image: url("diapo2.jpg");
+		  position: absolute;
+		  left: -999em;
+		}
+
+		#halfLeft {
+			width: 0px;
+			height: 100%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+			text-align: center;
+		}
+		#halfRight {
+			width: 100%;
+			height: 100%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+			text-align: center;
+		}
+		#diapo2 {
+			visibility: hidden;
+			width: 100%;
+			height: 100%;
+		}
+
+		#filaEnlaces {
+			margin-left: 10px;
+			margin-right: 10px;
+			height: 400px;
+			padding-top: 2em;
+		}
+		#titular {
+			margin-top: 1%;
+			font-size: 36px;
+			color: white;
+			text-shadow: 1px 1px black;
+			background-color: rgba(0, 0, 0, 0.08);
+			border-radius: 15px;
+			margin-left: 8em;
+			margin-right: 8em;
+		}
+		.enlaces {
+			padding-left: 0px;
+			padding-top: 20%;
+			padding-right: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		#enlaceIzq {
+			position: fixed;
+	    	bottom: 10px;
+	    	left: 0px;
+		}
+		#enlaceDer {
+			position: fixed;
+	    	bottom: 10px;
+	    	right: 0px;
+		}
+		.tituloEnlace {
+			background-color: rgba(172, 130, 178, 0.9);
+			margin-bottom: auto;
+			margin-top: auto;
+			margin-left: 10px;
+			margin-right: 10px;
+			padding-top: 1.3em;
+			padding-bottom: 1.3em;
+			font-size: 31px;
+			color: white;
+			border-radius: 10px;
+			color: white;
+		}
+		.tituloEnlace:hover {
+			background-color: rgba(172, 130, 178, 0.7);
+			cursor: pointer;
+			font-size: 31px;
 		}
 
 	}
@@ -167,48 +312,44 @@
 
 		#izq {
 			text-align: center;
+			max-width: 49%;
 			font-size: 22px;
 			height: 125px;
 			position: fixed;
-	    	bottom: 0px;
+	    	bottom: 5px;
 	    	left: 0px;
-	    	background-color: rgba(197, 66, 244, 0.7);
-	    	border-right-color: white;
-	    	border-right-style: solid;
-	    	border-right-width: 1px;
 	    	display: flex;
 	  		align-items: center;
 	  		justify-content: center;
 	  		padding-top: 20px;
 	  		transition: 0.7s;
+	  		margin-right: 5px;
+	  		margin-left: 5px;
 		}
 		#izq:hover {
 			font-size: 24px;
-			background-color: rgba(197, 66, 244, 0.9);
 			cursor: pointer;
 		}
 
 		#der {
 			text-align: center;
+			max-width: 49%;
 			font-size: 22px;
 			align-content: center;
 			height: 125px;
-	    	background-color: rgba(220, 60, 244, 0.7);
-	    	border-left-color: white;
-	    	border-left-style: solid;
-	    	border-left-width: 1px;
 			position: fixed;
-	    	bottom: 0px;
+	    	bottom: 5px;
 	    	right: 0px;
 	    	display: flex;
 	  		align-items: center;
 	  		justify-content: center;
 	  		padding-top: 20px;
 	  		transition: 0.7s;
+	  		margin-right: 5px;
+	  		margin-left: 5px;
 		}
 		#der:hover {
 			font-size: 24px;
-			background-color: rgba(220, 60, 244, 0.9);
 			cursor: pointer;
 		}
 
@@ -219,11 +360,115 @@
 		}
 		#titulo p {
 			position: relative;
-			padding-top: 2em;
 	  		font-size: 3.5em;
 	  		color: white;
 	  		text-shadow: 1px 1px black;
 		}
+
+		/*-----------diapo2--------------*/
+
+		body#bodyDiapo2 {
+			background-image: url("diapo2.jpg");
+	  		background-repeat: no-repeat;
+	  		background-attachment: fixed;
+	  		background-size: cover;
+			background-position: top;
+		}
+
+			/* body:before will also work
+		 as will body:after */
+		body#bodyDiapo2:before {
+		  content: url("diapo2.jpg")
+		  /* partial fallback */
+		  background-image: url("diapo2.jpg");
+		  position: absolute;
+		  left: -999em;
+		}
+
+		#halfLeft {
+			width: 0px;
+			height: 100%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+			text-align: center;
+		}
+		#halfRight {
+			width: 100%;
+			height: 100%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+			text-align: center;
+		}
+		#diapo2 {
+			visibility: hidden;
+			width: 100%;
+			height: 100%;
+		}
+
+		#filaEnlaces {
+			margin-left: 10px;
+			margin-right: 10px;
+			height: 400px;
+			padding-top: 2em;
+		}
+		#titular {
+			margin-top: 1%;
+			font-size: 36px;
+			color: white;
+			text-shadow: 1px 1px black;
+			background-color: rgba(0, 0, 0, 0.28);
+			border-radius: 15px;
+			margin-left: 8em;
+			margin-right: 8em;
+		}
+		.enlaces {
+			padding-left: 0px;
+			padding-top: 20%;
+			padding-right: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		#enlaceIzq {
+			position: fixed;
+	    	bottom: 10px;
+	    	left: 0px;
+		}
+		#enlaceDer {
+			position: fixed;
+	    	bottom: 10px;
+	    	right: 0px;
+		}
+		.tituloEnlace {
+			background-color: rgba(172, 130, 178, 0.9);
+			margin-bottom: auto;
+			margin-top: auto;
+			margin-left: 10px;
+			margin-right: 10px;
+			padding-top: 1.3em;
+			padding-bottom: 1.3em;
+			font-size: 31px;
+			color: white;
+			border-radius: 10px;
+			color: white;
+		}
+		.tituloEnlace:hover {
+			background-color: rgba(172, 130, 178, 0.7);
+			cursor: pointer;
+			font-size: 31px;
+		}
+
 	}
 
 	/*
@@ -231,21 +476,20 @@
 	  ##Screen = B/w 768px to 1024px
 	*/
 
-	@media (min-width: 641px) and (max-width: 1024px) {
+	@media (min-width: 641px) and (max-width: 1024px) and (orientation: portrait) {
 
 		#der,
 		#izq {
-			height: 300px;
+			height: 200px;
+			max-width: 49%;
 			font-size: 34px;
 		}
 		#der:hover {
 			font-size: 36px;
-			background-color: rgba(220, 60, 244, 0.9);
 			cursor: pointer;
 		}
 		#izq:hover {
 			font-size: 36px;
-			background-color: rgba(197, 66, 244, 0.9);
 			cursor: pointer;
 		}
 
@@ -256,10 +500,106 @@
 		}
 		#titulo p {
 			position: relative;
-			padding-top: 8em;
 	  		font-size: 4.5em;
 	  		color: white;
 	  		text-shadow: 1px 1px black;
+		}
+
+		/*-----------diapo2--------------*/
+		body#bodyDiapo2 {
+			background-image: url("diapo2.jpg");
+	  		background-repeat: no-repeat;
+	  		background-attachment: fixed;
+	  		background-size: cover;
+			background-position: center;
+		}
+
+			/* body:before will also work
+		 as will body:after */
+		body#bodyDiapo2:before {
+		  content: url("diapo2.jpg")
+		  /* partial fallback */
+		  background-image: url("diapo2.jpg");
+		  position: absolute;
+		  left: -999em;
+		}
+
+		#halfLeft {
+			width: 100%;
+			height: 0px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+			text-align: center;
+		}
+		#halfRight {
+			width: 100%;
+			height: 100%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+			text-align: center;
+		}
+		#diapo2 {
+			visibility: hidden;
+			width: 100%;
+			height: 100%;
+		}
+
+		#titular {
+			margin-top: 2%;
+			font-size: 5em;
+			color: white;
+			text-shadow: 1px 1px black;
+			background-color: rgba(0, 0, 0, 0.08);
+			border-radius: 15px;
+		}
+		#filaEnlaces {
+			padding-top: 90%;
+			margin-left: 10px;
+			margin-right: 10px;
+			width: 100%;
+		}
+		.enlaces {
+			padding-left: 0px;
+			padding-top: 10px;
+			padding-right: 0px;
+		}
+		#enlaceIzq {
+			position: fixed;
+	    	bottom: 5px;
+	    	left: 0px;
+		}
+		#enlaceDer {
+			position: fixed;
+	    	bottom: 5px;
+	    	right: 0px;
+		}
+		.tituloEnlace {
+			background-color: rgba(172, 130, 178, 0.9);
+			margin-bottom: 0px;
+			margin-top: auto;
+			margin-right: 5px;
+			margin-left: 5px;
+			padding-top: 70px;
+			padding-bottom: 70px;
+			font-size: 2em;
+			border-radius: 10px;
+			color: white;
+		}
+		.tituloEnlace:hover {
+			background-color: rgba(172, 130, 178, 0.7);
+			cursor: pointer;
 		}
 
 	}
@@ -275,15 +615,14 @@
 		#izq {
 			height: 100px;
 			font-size: 22px;
+			max-width: 49%;
 		}
 		#der:hover {
 			font-size: 24px;
-			background-color: rgba(220, 60, 244, 0.9);
 			cursor: pointer;
 		}
 		#izq:hover {
 			font-size: 24px;
-			background-color: rgba(197, 66, 244, 0.9);
 			cursor: pointer;
 		}
 
@@ -294,13 +633,113 @@
 		}
 		#titulo p {
 			position: relative;
-			padding-top: 1em;
 	  		font-size: 3.5em;
 	  		color: white;
 	  		text-shadow: 1px 1px black;
 		}
 
-	}
+		/*-----------diapo2--------------*/
+		body#bodyDiapo2 {
+			background-image: url("diapo2.jpg");
+	  		background-repeat: no-repeat;
+	  		background-attachment: fixed;
+	  		background-size: cover;
+			background-position: top;
+		}
+
+			/* body:before will also work
+		 as will body:after */
+		body#bodyDiapo2:before {
+		  content: url("diapo2.jpg")
+		  /* partial fallback */
+		  background-image: url("diapo2.jpg");
+		  position: absolute;
+		  left: -999em;
+		}
+
+		#halfLeft {
+			width: 0px;
+			height: 100%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+			text-align: center;
+		}
+		#halfRight {
+			width: 100%;
+			height: 100%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+			text-align: center;
+		}
+		#diapo2 {
+			visibility: hidden;
+			width: 100%;
+			height: 100%;
+		}
+
+		#filaEnlaces {
+			margin-left: 10px;
+			margin-right: 10px;
+			height: 400px;
+			padding-top: 2em;
+		}
+		#titular {
+			margin-top: 3%;
+			font-size: 36px;
+			color: white;
+			text-shadow: 1px 1px black;
+			background-color: rgba(0, 0, 0, 0.28);
+			border-radius: 15px;
+			margin-left: 5em;
+			margin-right: 5em;
+		}
+		.enlaces {
+			padding-left: 0px;
+			padding-top: 20%;
+			padding-right: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		#enlaceIzq {
+			position: fixed;
+	    	bottom: 10px;
+	    	left: 0px;
+		}
+		#enlaceDer {
+			position: fixed;
+	    	bottom: 10px;
+	    	right: 0px;
+		}
+		.tituloEnlace {
+			background-color: rgba(172, 130, 178, 0.9);
+			margin-bottom: auto;
+			margin-top: auto;
+			margin-left: 10px;
+			margin-right: 10px;
+			padding-top: 1.3em;
+			padding-bottom: 1.3em;
+			font-size: 31px;
+			color: white;
+			border-radius: 10px;
+			color: white;
+		}
+		.tituloEnlace:hover {
+			background-color: rgba(172, 130, 178, 0.7);
+			cursor: pointer;
+			font-size: 31px;
+		}
 
 	/*
 	  ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -310,17 +749,16 @@
 	@media (min-width: 481px) and (max-width: 640px) {
 		#der,
 		#izq {
-			height: 100px;
-			font-size: 22px;
+			height: 80px;
+			max-width: 48%;
+			font-size: 16px;
 		}
 		#der:hover {
-			font-size: 24px;
-			background-color: rgba(220, 60, 244, 0.9);
+			font-size: 16px;
 			cursor: pointer;
 		}
 		#izq:hover {
-			font-size: 24px;
-			background-color: rgba(197, 66, 244, 0.9);
+			font-size: 16px;
 			cursor: pointer;
 		}
 
@@ -331,83 +769,108 @@
 		}
 		#titulo p {
 			position: relative;
-			padding-top: 1em;
 	  		font-size: 3.5em;
 	  		color: white;
 	  		text-shadow: 1px 1px black;
 		}
-	}
 
-	/*
-	  ##Device = Most of the Smartphones Mobiles (Portrait)
-	  ##Screen = B/w 320px to 479px
-	*/
+		/*----------diapo2-----------*/
+		body#bodyDiapo2 {
+			background-image: url("diapo2.jpg");
+	  		background-repeat: no-repeat;
+	  		background-attachment: fixed;
+	  		background-size: cover;
+			background-position: center;
+		}
 
-	@media (min-width: 320px) and (max-width: 480px) {
+			/* body:before will also work
+		 as will body:after */
+		body#bodyDiapo2:before {
+		  content: url("diapo2.jpg")
+		  /* partial fallback */
+		  background-image: url("diapo2.jpg");
+		  position: absolute;
+		  left: -999em;
+		}
 
-		#izq {
+		#halfLeft {
+			width: 100%;
+			height: 0px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
 			text-align: center;
-			font-size: 38px;
-			font-weight: bold;
-			height: 300px;
+		}
+		#halfRight {
+			width: 100%;
+			height: 100%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+			text-align: center;
+		}
+		#diapo2 {
+			visibility: hidden;
+			width: 100%;
+			height: 100%;
+		}
+
+		#titular {
+			margin-top: 2%;
+			font-size: 5em;
+			color: white;
+			text-shadow: 1px 1px black;
+			background-color: rgba(0, 0, 0, 0.08);
+			border-radius: 15px;
+		}
+		#filaEnlaces {
+			padding-top: 90%;
+			margin-left: 10px;
+			margin-right: 10px;
+			width: 100%;
+		}
+		.enlaces {
+			padding-left: 0px;
+			padding-top: 10px;
+			padding-right: 0px;
+		}
+		#enlaceIzq {
 			position: fixed;
-	    	bottom: 0px;
+	    	bottom: 5px;
 	    	left: 0px;
-	    	background-color: rgba(197, 66, 244, 0.7);
-	    	border-right-color: white;
-	    	border-right-style: solid;
-	    	border-right-width: 1px;
-	    	display: flex;
-	  		align-items: center;
-	  		justify-content: center;
-	  		padding-top: 20px;
-	  		transition: 0.7s;
 		}
-		#izq:hover {
-			font-size: 40px;
-			background-color: rgba(197, 66, 244, 0.9);
-			cursor: pointer;
-		}
-
-		#der {
-			text-align: center;
-			font-size: 38px;
-			font-weight: bold;
-			align-content: center;
-			height: 300px;
-	    	background-color: rgba(220, 60, 244, 0.7);
-	    	border-left-color: white;
-	    	border-left-style: solid;
-	    	border-left-width: 1px;
+		#enlaceDer {
 			position: fixed;
-	    	bottom: 0px;
+	    	bottom: 5px;
 	    	right: 0px;
-	    	display: flex;
-	  		align-items: center;
-	  		justify-content: center;
-	  		padding-top: 20px;
-	  		transition: 0.7s;
 		}
-		#der:hover {
-			font-size: 40px;
-			background-color: rgba(220, 60, 244, 0.9);
+		.tituloEnlace {
+			background-color: rgba(172, 130, 178, 0.9);
+			margin-bottom: 0px;
+			margin-top: auto;
+			margin-right: 5px;
+			margin-left: 5px;
+			padding-top: 70px;
+			padding-bottom: 70px;
+			font-size: 2em;
+			border-radius: 10px;
+			color: white;
+		}
+		.tituloEnlace:hover {
+			background-color: rgba(172, 130, 178, 0.7);
 			cursor: pointer;
-		}
-
-		#titulo {
-			text-align: center;
-			height: 100px;
-			position: relative;
-		}
-		#titulo p {
-			position: relative;
-			padding-top: 10em;
-	  		font-size: 4.5em;
-	  		color: white;
-	  		text-shadow: 1px 1px black;
 		}
 	}
-
 
 	/* Small devices (portrait tablets and large phones, 600px and up)
 	@media only screen and (orientation: portrait) and (min-width: 600px) {
@@ -534,4 +997,3 @@
 	  		text-shadow: 1px 1px black;
 		}
 	}*/
-
