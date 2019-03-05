@@ -1391,3 +1391,345 @@ body {
 .cid-rjSfdu3Cxt {
   background-image: url("../../../assets/images/mani-1920x1080.jpg");
 }
+.cid-rjSfdu3Cxt H1 {
+  color: #ac82b2;
+}
+.cid-rjSfdu3Cxt {
+  background-image: url("../../../assets/images/mani-manada-1-2000x1500.jpg");
+}
+.cid-rjSfdu3Cxt H1 {
+  color: #ac82b2;
+}
+.cid-rjSfdu3Cxt {
+  background-image: url("../../../assets/images/mani2-2000x1500.jpg");
+}
+.cid-rjSfdu3Cxt H1 {
+  color: #ac82b2;
+}
+.cid-rjSOtzitSw {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #ac82b2;
+}
+.cid-rjSOtzitSw H2 {
+  color: #ffffff;
+}
+.cid-rjSIanuJz0 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rjSIanuJz0 .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-rjSIanuJz0 .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-rjSIanuJz0 .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-rjSIanuJz0 .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-rjSIanuJz0 .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ac82b2;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-rjSIanuJz0 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-rjSIanuJz0 .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-rjSIanuJz0 .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-rjSIanuJz0 .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #ac82b2 !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
+.cid-rjSIanuJz0 .mbr-gallery-item > div > span {
+  text-align: center;
+}
+.cid-rjSJrhZi7Y {
+  background-image: url("../../../assets/images/nadia1-3-2000x2000.jpg");
+}
+.cid-rjSJrhZi7Y H1 {
+  color: #ac82b2;
+}
+.cid-rjSSETLn9j {
+  background-image: url("../../../assets/images/nuria1-1-2000x2298.jpg");
+}
+.cid-rjSSETLn9j H1 {
+  color: #ac82b2;
+}
+.cid-rjSSFJokXA {
+  background-image: url("../../../assets/images/pamela2-900x633.jpg");
+}
+.cid-rjSSFJokXA H1 {
+  color: #ac82b2;
+}
+.cid-rjSSGeWuiW {
+  background-image: url("../../../assets/images/laura-freixas-3-475x599.jpg");
+}
+.cid-rjSSGeWuiW H1 {
+  color: #ac82b2;
+}
+.cid-rjSSGND0Uu {
+  background-image: url("../../../assets/images/nerea2-2-1200x675.jpg");
+}
+.cid-rjSSGND0Uu H1 {
+  color: #ac82b2;
+}
+.cid-rjSSHiu4GD {
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
+}
+.cid-rjSSHiu4GD H1 {
+  color: #ac82b2;
+}
+.cid-rjSSHKKA2y {
+  background-image: url("../../../assets/images/mbr-1920x1281.jpg");
+}
+.cid-rjSSHKKA2y H1 {
+  color: #ac82b2;
+}
+.cid-rjSSIdcxqX {
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
+}
+.cid-rjSSIdcxqX H1 {
+  color: #ac82b2;
+}
+.cid-rjSfdu3Cxt {
+  background-image: url("../../../assets/images/mani-1-1920x1080.jpg");
+}
+.cid-rjSfdu3Cxt H1 {
+  color: #ac82b2;
+}
+.cid-rjSfdu3Cxt .mbr-text,
+.cid-rjSfdu3Cxt .mbr-section-btn {
+  text-align: center;
+}
+.cid-rjSfdu3Cxt {
+  background-image: url("../../../assets/images/mani3-2000x1500.jpg");
+}
+.cid-rjSfdu3Cxt H1 {
+  color: #ac82b2;
+}
+.cid-rjSOtzitSw {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #ac82b2;
+}
+.cid-rjSOtzitSw H2 {
+  color: #ffffff;
+}
+.cid-rjSIanuJz0 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rjSIanuJz0 .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-rjSIanuJz0 .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-rjSIanuJz0 .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-rjSIanuJz0 .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-rjSIanuJz0 .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ac82b2;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-rjSIanuJz0 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-rjSIanuJz0 .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-rjSIanuJz0 .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-rjSIanuJz0 .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #ac82b2 !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
+.cid-rjSIanuJz0 .mbr-gallery-item > div > span {
+  text-align: center;
+}
+.cid-rjSJrhZi7Y {
+  background-image: url("../../../assets/images/nadia1-3-2000x2000.jpg");
+}
+.cid-rjSJrhZi7Y H1 {
+  color: #ac82b2;
+}
+.cid-rjSSETLn9j {
+  background-image: url("../../../assets/images/nuria1-1-2000x2298.jpg");
+}
+.cid-rjSSETLn9j H1 {
+  color: #ac82b2;
+}
+.cid-rjSSFJokXA {
+  background-image: url("../../../assets/images/pamela2-900x633.jpg");
+}
+.cid-rjSSFJokXA H1 {
+  color: #ac82b2;
+}
+.cid-rjSSGeWuiW {
+  background-image: url("../../../assets/images/laura-freixas-3-475x599.jpg");
+}
+.cid-rjSSGeWuiW H1 {
+  color: #ac82b2;
+}
+.cid-rjSSGND0Uu {
+  background-image: url("../../../assets/images/nerea2-2-1200x675.jpg");
+}
+.cid-rjSSGND0Uu H1 {
+  color: #ac82b2;
+}
+.cid-rjSSHiu4GD {
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
+}
+.cid-rjSSHiu4GD H1 {
+  color: #ac82b2;
+}
+.cid-rjSSHKKA2y {
+  background-image: url("../../../assets/images/mbr-1920x1281.jpg");
+}
+.cid-rjSSHKKA2y H1 {
+  color: #ac82b2;
+}
+.cid-rjSSIdcxqX {
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
+}
+.cid-rjSSIdcxqX H1 {
+  color: #ac82b2;
+}
+.cid-rjSfdu3Cxt {
+  background-image: url("../../../assets/images/protest-155927-1920x1823.png");
+}
+.cid-rjSfdu3Cxt H1 {
+  color: #ac82b2;
+}
+.cid-rjT9RJdvjj {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #ac82b2;
+}
+.cid-rjT9RJdvjj P {
+  color: #767676;
+}
+.cid-rjT9RJdvjj H1 {
+  color: #ffffff;
+}
+.cid-rjT9RJdvjj .mbr-text,
+.cid-rjT9RJdvjj .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-rjTbdjK3f4 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #232323;
+}
+.cid-rjTbdjK3f4 .testimonial-text {
+  font-style: italic;
+  font-weight: 300;
+}
+.cid-rjTbdjK3f4 .mbr-author-name {
+  font-weight: bold;
+}
+.cid-rjTbdjK3f4 .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+@media (max-width: 991px) {
+  .cid-rjTbdjK3f4 .mbr-figure,
+  .cid-rjTbdjK3f4 img {
+    max-height: 300px;
+    width: auto;
+    margin: auto;
+  }
+  .cid-rjTbdjK3f4 .media-content {
+    padding-top: 1.5rem !important;
+  }
+}
+.cid-rjTbdUmCL6 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #232323;
+}
+.cid-rjTbdUmCL6 .testimonial-text {
+  font-style: italic;
+  color: #232323;
+  font-weight: 300;
+}
+.cid-rjTbdUmCL6 .mbr-author-name {
+  font-weight: bold;
+  color: #ffffff;
+}
+.cid-rjTbdUmCL6 .mbr-author-desc {
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-rjTbdUmCL6 .mbr-figure,
+  .cid-rjTbdUmCL6 img {
+    max-height: 300px;
+    width: auto;
+    margin: auto;
+  }
+}
