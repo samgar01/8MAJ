@@ -1394,6 +1394,10 @@ body {
 .cid-rjSfdu3Cxt H1 {
   color: #ac82b2;
 }
+.cid-rjSfdu3Cxt .mbr-text,
+.cid-rjSfdu3Cxt .mbr-section-btn {
+  text-align: center;
+}
 .cid-rjSfdu3Cxt {
   background-image: url("../../../assets/images/mani-manada-1-2000x1500.jpg");
 }
