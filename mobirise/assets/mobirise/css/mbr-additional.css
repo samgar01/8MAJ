@@ -870,6 +870,11 @@ pre {
 .offset-11 {
   margin-left: 91.66667%;
 }
+
+#back-arrow-icono {
+  font-size: 4em; color: white;"
+}
+
 @media (min-width: 576px) {
   .offset-sm-0 {
     margin-left: 0%;
@@ -982,6 +987,9 @@ pre {
   }
   .offset-lg-11 {
     margin-left: 91.66667%;
+  }
+  #back-arrow-icono {
+    font-size: 6em; color: white;"
   }
 }
 @media (min-width: 1200px) {
@@ -1398,16 +1406,16 @@ body {
 .cid-rjSfdu3Cxt .mbr-section-btn {
   text-align: center;
 }
-.cid-rjSfdu3Cxt {
+.cid-rjSfdu3Cxt3 {
   background-image: url("../../../assets/images/mani-manada-1-2000x1500.jpg");
 }
-.cid-rjSfdu3Cxt H1 {
+.cid-rjSfdu3Cxt3 H1 {
   color: #ac82b2;
 }
-.cid-rjSfdu3Cxt {
+.cid-rjSfdu3Cxt4 {
   background-image: url("../../../assets/images/mani2-2000x1500.jpg");
 }
-.cid-rjSfdu3Cxt H1 {
+.cid-rjSfdu3Cxt4 H1 {
   color: #ac82b2;
 }
 .cid-rjSOtzitSw {
@@ -1529,22 +1537,29 @@ body {
 .cid-rjSSIdcxqX H1 {
   color: #ac82b2;
 }
-.cid-rjSfdu3Cxt {
+.cid-rjSfdu3Cxt2 {
   background-image: url("../../../assets/images/mani-1-1920x1080.jpg");
 }
-.cid-rjSfdu3Cxt H1 {
+.cid-rjSfdu3Cxt2 H1 {
   color: #ac82b2;
 }
-.cid-rjSfdu3Cxt .mbr-text,
-.cid-rjSfdu3Cxt .mbr-section-btn {
+.cid-rjSfdu3Cxt2 .mbr-text,
+.cid-rjSfdu3Cxt2 .mbr-section-btn {
   text-align: center;
 }
-.cid-rjSfdu3Cxt {
+.cid-rjSfdu3Cxt7 {
   background-image: url("../../../assets/images/mani3-2000x1500.jpg");
 }
-.cid-rjSfdu3Cxt H1 {
+.cid-rjSfdu3Cxt7 H1 {
   color: #ac82b2;
 }
+.cid-rjSfdu3Cxt6 {
+  background-image: url("../../../assets/images/foto.png");
+}
+.cid-rjSfdu3Cxt6 H1 {
+  color: #ac82b2;
+}
+
 .cid-rjSOtzitSw {
   padding-top: 30px;
   padding-bottom: 0px;
@@ -1664,10 +1679,10 @@ body {
 .cid-rjSSIdcxqX H1 {
   color: #ac82b2;
 }
-.cid-rjSfdu3Cxt {
+.cid-rjSfdu3Cxt9 {
   background-image: url("../../../assets/images/protest-155927-1920x1823.png");
 }
-.cid-rjSfdu3Cxt H1 {
+.cid-rjSfdu3Cxt9 H1 {
   color: #ac82b2;
 }
 .cid-rjT9RJdvjj {
